@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+header {
+    margin-bottom: 80px;
+}
+
+section {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    padding: 35px;
+    margin-top: 20px;
+    width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+input {
+    margin-bottom: 2.5rem;
+    font-size: 18px;
+	padding: 5px 2px;
+	width: 100%;
+	padding-left: 15px;
+	outline: none;
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #C4D1EB;
+	border-radius: 5px;
+	box-shadow: 3px 3px 2px 0px #E2E2E2;
+	transition: .3s ease;
+}
+
+input:focus {
+    background: #F2F2F2;
+	border: 1px solid #6433AC;
+	border-radius: 10px;
+}
+
+select {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+.tabela {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+.gerarButton {
+    background-color: #6433AC;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.gerarButton:active {
+    top: 2px;
+    position: relative;
+}
